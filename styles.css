@@ -1,0 +1,26 @@
+.sheet {
+    max-width: 960px;
+    border-style: solid;
+    border-color: black;
+    
+    ;
+}
+
+.row {
+    max-width: 960px;
+    /* border-style: solid; */
+    /* border-color: green; */
+    
+    display: flex;
+    justify-content: center
+}
+.cell {
+    /* border-style: solid; */
+    /* border-color: orange; */
+    flex-direction: column;
+    width: 10px;
+    height: 10px;
+    display: block;
+    flex-direction: row;
+    flex: 1;
+}
